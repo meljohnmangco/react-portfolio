@@ -77,6 +77,13 @@ const Navbar = ({selectedPage, setSelectedPage}) => {
                                 setSelectedPage={setSelectedPage}
                             />
                         </li>
+                         <li className="nav-item pt-lg-3">
+                            <div className="social-icons">
+                                <a href="https://web.facebook.com/meljohn7" target="_blank"><i class="lab la-facebook"></i></a>
+                                <a href="https://github.com/meljohnmangco" target="_blank"><i class="lab la-github"></i></a>
+                                <a href="https://www.linkedin.com/in/meljohn-mangco-a37b77253/" target="_blank"><i class="lab la-linkedin"></i></a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
