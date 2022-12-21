@@ -10,113 +10,125 @@ const Projects = ({setSelectedPage}) => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 0.5 }}
+                        transition={{ duration: 0.3 }}
                         variants={{
                             hidden: { opacity: 0, y: -50 },
                             visible: { opacity: 1, y: 0}
                         }}
                     >
-                        <h1 className="mb-5">My Projects</h1>
+                        <h1 className="mb-5">Ventures I crafted during my learning journey</h1>
                     </motion.div>
                 </div>
-                <div className="row gy-4">
+                <div className="row gy-0">
                     <motion.div
-                        className="col-lg-4 col-md-6 z-index"
+                        className="col-lg-4 col-md-6 z-index px-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 0.4 }}
+                        transition={{ duration: 0.3 }}
                         variants={{
                             hidden: { opacity: 0, scale: 0.8 },
                             visible: { opacity: 1, scale: 1}
                         }}
                     >
-                        <div className="card-custom">
-                            <div className="card-custom-image bg-base zoom zoom-line">
-                                <img src="./assets/images/project-1.jpg" alt="" />
-                                <div className="card-custom-content p-4 bg">
-                                <h4>ToDo List App</h4>
-                                <p>
-                                    A tool that helps people organize their tasks and schedule
-                                    their time more effectively. With a todo list app, users,
-                                    set deadlines and reminders, and track their progress.
-                                </p>
-                                </div>
+                        <div className="card h-100 rounded-0 bg-base zoom zoom-line">
+                            <img src="./assets/images/project-1.jpg" alt="" />
+                            <div className="p-4 h-100 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4>ToDo List App</h4>
+                                    <p>
+                                        A tool that helps people organize their tasks and schedule
+                                        their time more effectively. With a todo list app, users,
+                                        set deadlines and reminders, and track their progress.
+                                    </p>
+                                </div>    
+
+                                <div className="row">
+                                    <div className="github d-flex justify-content-start col-6">
+                                        <a href="https://github.com/meljohnmangco/todo-app" target="_blank"><i class="lab la-github project-preview"><p>Github</p></i></a>
+                                    </div>
+                                </div>                   
                             </div>
                         </div>
                     </motion.div>
                     <motion.div
-                        className="col-lg-4 col-md-6 z-index"
+                        className="col-lg-4 col-md-6 z-index px-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ delay: 0.2, duration: 0.4 }}
+                        transition={{ delay: 0.2, duration: 0.3 }}
                         variants={{
                             hidden: { opacity: 0, scale: 0.8 },
                             visible: { opacity: 1, scale: 1}
                         }}
                     >
-                        <div className="card-custom">
-                            <div className="card-custom-image bg-base zoom zoom-line">
-                                <img src="./assets/images/project-2.png" alt="" />
-                                <div className="card-custom-content p-4 bg">
-                                <h4>ToDo List App</h4>
+                        <div className="card h-100 rounded-0 bg-base zoom zoom-line">
+                            <img src="./assets/images/project-2.png" alt="" />
+                            <div className="p-4 h-100 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4>Team Member Allocation App</h4>
                                 <p>
-                                    A tool that helps people organize their tasks and schedule
-                                    their time more effectively. With a todo list app, users,
-                                    set deadlines and reminders, and track their progress.
+                                   A tool that allows a team leader to assign team members to specific teams or projects. It helps the team leader organize and manage their team effectively.
                                 </p>
+                            </div>  
+                            <div className="row">
+                                <div className="github d-flex justify-content-start col-6  align-items-center">
+                                    <a href="https://github.com/meljohnmangco/TeamMemberAllocation" target="_blank"><i class="lab la-github project-preview"><p>Github</p></i></a>
                                 </div>
+                                 <div className="github d-flex justify-content-end col-6  align-items-center">
+                                    <a href="https://meljohnmangco.github.io/TeamMemberAllocation/" target="_blank"><i class="lar la-eye project-preview"><p>Preview</p></i></a>
+                                </div>
+                            </div>     
                             </div>
                         </div>
                     </motion.div>
                     <motion.div
-                        className="col-lg-4 col-md-6 z-index"
+                        className="col-lg-4 col-md-6 z-index px-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ delay: 0.3, duration: 0.4 }}
+                        transition={{ delay: 0.3, duration: 0.3 }}
                         variants={{
                             hidden: { opacity: 0, scale: 0.8 },
                             visible: { opacity: 1, scale: 1}
                         }}
                     >
-                        <div className="card-custom">
-                            <div className="card-custom-image bg-base zoom zoom-line">
-                                <img src="./assets/images/project-3.png" alt="" />
-                                <div className="card-custom-content p-4 bg">
-                                <h4>ToDo List App</h4>
-                                <p>
-                                    A tool that helps people organize their tasks and schedule
-                                    their time more effectively. With a todo list app, users,
-                                    set deadlines and reminders, and track their progress.
-                                </p>
-                                </div>
+                        <div className="card h-100 rounded-0 bg-base zoom zoom-line">
+                            <img src="./assets/images/project-3.png" alt="" />
+                            <div className="p-4 h-100 d-flex flex-column justify-content-between">
+                            <div>
+                                 <h4>ToDo List App</h4>
+                                 <p>
+                                     A tool that helps people organize their tasks and schedule
+                                     their time more effectively. With a todo list app, users,
+                                     set deadlines and reminders, and track their progress.
+                                 </p>
+                            </div>                         
                             </div>
                         </div>
                     </motion.div>
                     <motion.div
-                        className="col-lg-4 col-md-6 z-index"
+                        className="col-lg-4 col-md-6 z-index px-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ delay: 0.4, duration: 0.4 }}
+                        transition={{ delay: 0.4, duration: 0.3 }}
                         variants={{
                             hidden: { opacity: 0, scale: 0.8 },
                             visible: { opacity: 1, scale: 1}
                         }}
                     >
-                        <div className="card-custom">
-                            <div className="card-custom-image bg-base zoom zoom-line">
-                                <img src="./assets/images/project-4.png" alt="" />
-                                <div className="card-custom-content p-4 bg">
+                        <div className="card h-100 rounded-0 bg-base zoom zoom-line">
+                            <img src="./assets/images/project-4.png" alt="" />
+                            <div className="p-4 h-100 d-flex flex-column justify-content-between">
+                            <div>
                                 <h4>ToDo List App</h4>
                                 <p>
                                     A tool that helps people organize their tasks and schedule
                                     their time more effectively. With a todo list app, users,
                                     set deadlines and reminders, and track their progress.
                                 </p>
-                                </div>
+                            </div>
                             </div>
                         </div>
                     </motion.div>

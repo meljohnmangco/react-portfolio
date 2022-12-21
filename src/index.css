@@ -19,6 +19,7 @@
 
 html {
 	scroll-behavior: smooth;
+	font-family: var(--font-base), sans-serif;
 
 }
 
@@ -323,7 +324,35 @@ img {
 	width: 100%;
 }
 
+
+/*PROJECTS*/		
+
+
+.project-preview {
+	display: flex;
+	align-items: center;
+	color: var(--light);
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.project-preview p {
+	font-size: 1rem;
+	font-family: var(--font-base), sans-serif;
+	margin-bottom: 0;
+}
+
+.project-preview:hover {
+	color: var(--brand-color);
+}
+
+.github i {
+	font-size: 2rem;
+}
+
+
 /* CARDS */
+
 
 .iconbox {
 	width: 60px;
@@ -340,9 +369,11 @@ img {
 
 
 /*SERVICES*/
+
+
 .cutoff-lines {
 	--max-lines: 5;
-	--line-height: 1.4;
+	--line-height: 1.5;
 
 	max-height: calc(var(--max-lines) * 1em * var(--line-height));
 	line-height: var(--line-height);
@@ -352,6 +383,7 @@ img {
 }
 
 .cutoff-lines:has(+ .expand-btn:not(:checked))::before {
+
 	content: "";
 	position: absolute;
 	height: calc(1em * var(--line-height));
@@ -362,6 +394,7 @@ img {
 }
 
 .expand-btn{
+	text-align: center;
 	appearance: none;
 	border: 1px solid var(--brand-color);
 	padding: 0.5em;
