@@ -48,9 +48,9 @@ const Services = ({setSelectedPage}) => {
                             <div className="iconbox rounded-3">
                             <i className="las la-store"></i>
                             </div>
-                            <h5 className="mt-4 mb-2">E-Commerce</h5>
+                            <h5 className="mt-4 mb-2">Maintenance and Support</h5>
                             <p className="cutoff-lines">
-                            I offer expert E-commerce Development services to help businesses succeed in the online marketplace. I have the knowledge and skills to create custom online stores and shopping platforms that are optimized for sales and conversions. I can help with every aspect of e-commerce development, from product catalogs and checkout processes to payment gateways and shipping integrations. With my focus on clean, efficient code and user-friendly design, I can ensure that your e-commerce website is easy to use and maintain. Contact me today to learn more about how my e-commerce development services can help your business grow.
+                            I offer web development services that include maintaining and supporting web applications after they have been launched. This may involve fixing bugs, releasing updates, and providing technical support to users. I am also responsible for monitoring the performance and availability of the application and taking proactive measures to prevent downtime.
                             </p>
                             <input type="checkbox" className="mt-auto expand-btn" />
                         </div>
