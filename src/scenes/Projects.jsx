@@ -32,7 +32,7 @@ const Projects = ({setSelectedPage}) => {
                         }}
                     >
                         <div className="card h-100 rounded-0 bg-base zoom zoom-line">
-                            <img src="./assets/images/project-2.png" alt="" />
+                            <img src="./assets/images/team-member-allocation.png" alt="" />
                             <div className="p-3 h-100 d-flex flex-column justify-content-between">
                             <div>
                                 <h4>Team Member Allocation App</h4>
@@ -63,7 +63,7 @@ const Projects = ({setSelectedPage}) => {
                         }}
                     >
                         <div className="card h-100 rounded-0 bg-base zoom zoom-line">
-                            <img src="./assets/images/project-3.png" alt="" />
+                            <img src="./assets/images/meals-database.png" alt="" />
                             <div className="p-3 h-100 d-flex flex-column justify-content-between">
                                 <div>
                                      <h4>Meals Database</h4>
@@ -72,13 +72,13 @@ const Projects = ({setSelectedPage}) => {
                                      </p>
                                 </div>
                                 <div className="row">
-                                <div className="github d-flex justify-content-start col-6  align-items-center">
-                                    <a href="https://github.com/meljohnmangco/meals-database" target="_blank"><i class="lab la-github project-preview"><p>Github</p></i></a>
-                                </div>
-                                 <div className="github d-flex justify-content-end col-6  align-items-center">
-                                    <a href="https://meljohnmangco.github.io/meals-database/" target="_blank"><i class="lar la-eye project-preview"><p>Preview</p></i></a>
-                                </div>
-                            </div>                          
+                                    <div className="github d-flex justify-content-start col-6  align-items-center">
+                                        <a href="https://github.com/meljohnmangco/meals-database" target="_blank"><i class="lab la-github project-preview"><p>Github</p></i></a>
+                                    </div>
+                                     <div className="github d-flex justify-content-end col-6  align-items-center">
+                                        <a href="https://meljohnmangco.github.io/meals-database/" target="_blank"><i class="lar la-eye project-preview"><p>Preview</p></i></a>
+                                    </div>
+                                </div>                          
                             </div>
                         </div>
                     </motion.div>
@@ -94,16 +94,22 @@ const Projects = ({setSelectedPage}) => {
                         }}
                     >
                         <div className="card h-100 rounded-0 bg-base zoom zoom-line">
-                            <img src="./assets/images/project-4.png" alt="" />
+                            <img src="./assets/images/notes-app.png" alt="" />
                             <div className="p-3 h-100 d-flex flex-column justify-content-between">
-                            <div>
-                                <h4>ToDo List App</h4>
-                                <p>
-                                    A tool that helps people organize their tasks and schedule
-                                    their time more effectively. With a todo list app, users,
-                                    set deadlines and reminders, and track their progress.
-                                </p>
-                            </div>
+                                <div>
+                                    <h4>Notes App</h4>
+                                    <p>
+                                        A notes app with Login Auth, JWT Auth, and Roles & Permissions features ensures secure access to notes, verifies user identity, and limits access to certain features based on user role. Try as Guest, pass: guest
+                                    </p>
+                                </div>
+                                <div className="row">
+                                    <div className="github d-flex justify-content-start col-6  align-items-center">
+                                        <a href="https://github.com/meljohnmangco/notes-app/tree/master" target="_blank"><i class="lab la-github project-preview"><p>Github</p></i></a>
+                                    </div>
+                                     <div className="github d-flex justify-content-end col-6  align-items-center">
+                                        <a href="https://notes-app-knre.onrender.com/" target="_blank"><i class="lar la-eye project-preview"><p>Preview</p></i></a>
+                                    </div>
+                                </div>          
                             </div>
                         </div>
                     </motion.div>
